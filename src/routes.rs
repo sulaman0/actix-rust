@@ -9,7 +9,7 @@ async fn hello() -> impl Responder {
 }
 
 #[get("/profile")]
-async fn profile() -> imp
+async fn profile() -> impl
 // async fn profile() -> impl Responder {
 //     HttpResponse::Ok().body(test1())
 // }
