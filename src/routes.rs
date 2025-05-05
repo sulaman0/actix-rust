@@ -14,4 +14,4 @@ async fn profile() -> impl Responder {
 }
 
 
-#[get("/user-info")]
+#[get("/user-details")]
