@@ -12,3 +12,6 @@ async fn hello() -> impl Responder {
 async fn profile() -> impl Responder {
     HttpResponse::Ok().body(test1())
 }
+
+
+#[get("/user-info")]
